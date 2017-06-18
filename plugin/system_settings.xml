@@ -26,19 +26,36 @@
                    title="msg_airplanemode"
                    icon="tex_flight_mode"
                    hint="msg_airplanemode_info" />
-
-    <!-- HENkaku Settings -->
+     <!-- テーマ -->
+    <link id="theme_settings"
+          file="theme_settings.xml"
+          title="msg_theme_background"
+          icon="tex_themes"/>
+    
+        <!-- HENkaku Settings -->
     <link id="henkaku_settings"
             title="msg_henkaku_settings"
             icon="tex_spanner"
             file="idu_settings.xml"
             />
     
+     <!-- システム -->
+    <link id="console_info"
+          file="console_info.xml"
+          title="msg_system"
+          icon="tex_system"/>
+    
     <!-- ネットワーク設定 -->
     <link id="network_settings"
           title="msg_network"
           icon="tex_network"
           file="network_settings.xml" />
+    
+        <!-- サウンド＆ディスプレイ -->
+    <link id="sound_settings"
+          file="sound_settings.xml"
+          title="msg_sound_display"
+          icon="tex_sound_display"/>
 
     <!-- PlayStation®Network設定 -->
     <link id="psn_settings"
@@ -57,18 +74,6 @@
           file="notification_settings.xml"
           title="msg_notifications"
           icon="tex_notification"/>
-
-    <!-- サウンド＆ディスプレイ -->
-    <link id="sound_settings"
-          file="sound_settings.xml"
-          title="msg_sound_display"
-          icon="tex_sound_display"/>
-
-    <!-- テーマ -->
-    <link id="theme_settings"
-          file="theme_settings.xml"
-          title="msg_theme_background"
-          icon="tex_themes"/>
 
     <!-- 位置データ -->
     <link id="location_settings"
@@ -99,12 +104,6 @@
           file="accessibility.xml"
           title="msg_accessibility"
           icon="tex_accessibility"/>
-
-    <!-- システム -->
-    <link id="console_info"
-          file="console_info.xml"
-          title="msg_system"
-          icon="tex_system"/>
 
     <!-- 初期化 -->
     <link id="reset"
